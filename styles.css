@@ -215,8 +215,12 @@ a:hover{
 .Navigation{
 
     position: absolute;
-    top: 10px;
-    margin:10px auto 0 10px;
+    font-weight: bold;
+    top: 0px;
+  /*  margin:10px auto 0 10px; */
+    background-color: orange;
+    padding: 10px;
+
 }
 
 .bt {
@@ -240,6 +244,9 @@ a:hover{
     cursor: pointer;
     text-align: center;
     margin-bottom: 30px;
+    position: fixed;
+    bottom: 8px;
+    right: 16px;
 }
 
 .bt:hover {
@@ -255,4 +262,9 @@ a:hover{
     -moz-border-radius: 4px;
     border-radius: 4px;
     text-decoration: none;
+}
+
+.span{
+
+text-decoration: underline;
 }
