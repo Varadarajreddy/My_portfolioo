@@ -214,11 +214,10 @@ a:hover{
 
 .Navigation{
 
-    position: absolute;
+   position: absolute;
     font-weight: bold;
-    top: 0px;
-  /*  margin:10px auto 0 10px; */
-    background-color: orange;
+    top: 2pt;
+    background-color: rgb(34, 36, 37);
     padding: 10px;
 
 }
